@@ -1,6 +1,6 @@
 {
   "name": "@stravigor/testing",
-  "version": "0.5.6",
+  "version": "0.5.9",
   "type": "module",
   "description": "Testing utilities for the Strav framework",
   "license": "MIT",
@@ -17,6 +17,7 @@
   "peerDependencies": {
     "@stravigor/kernel": "workspace:*",
     "@stravigor/http": "workspace:*",
+    "@stravigor/view": "workspace:*",
     "@stravigor/database": "workspace:*"
   },
   "scripts": {

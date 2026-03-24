@@ -89,7 +89,7 @@ export class TestCase {
 
     // View engine
     if (this.options.views) {
-      const { ViewEngine } = await import('@stravigor/http')
+      const { ViewEngine } = await import('@stravigor/view')
       const { Context } = await import('@stravigor/http')
 
       if (!app.has(ViewEngine)) app.singleton(ViewEngine)
